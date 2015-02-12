@@ -5,6 +5,7 @@ ConvergenceTable::ConvergenceTable(const Wrapper<StatisticsMC>& Inner_)
 {
     StoppingPoint=2;
     PathsDone=0;
+	std::cout << "!!!!!!!!!";
 }
 
 StatisticsMC* ConvergenceTable::clone() const
