@@ -78,6 +78,8 @@ int main()
     vector<vector<double> > results =gathererTwo.GetResultsSoFar();
 
 	cout <<"\nFor the call price the results are \n";
+
+	cout << "Let us rock and roll!!!!!!!!!!!!!!!!!!\n";
     for (unsigned long i=0; i < results.size(); i++)
     {
         for (unsigned long j=0; j < results[i].size(); j++)
