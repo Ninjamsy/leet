@@ -9,6 +9,7 @@
 
 PayOffCall::PayOffCall(double Strike_) : Strike(Strike_)
 {
+	std::cout << "Come on I am payoff3.cpp file\n";
 }
 
 double PayOffCall::operator () (double Spot) const
