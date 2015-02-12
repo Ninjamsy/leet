@@ -10,6 +10,7 @@
 Parameters::Parameters(const ParametersInner& innerObject)
 {
    InnerObjectPtr = innerObject.clone();
+   std::cout << "This is modification from Patameter.cpp file\n";
 }
 
 Parameters::Parameters(const Parameters& original)
