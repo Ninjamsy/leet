@@ -1,0 +1,21 @@
+﻿Build started 11/21/2014 8:47:10 PM.
+     1>Project "c:\Users\jerry mao\documents\visual studio 2013\Projects\Shuoyu mao12\Shuoyu mao12\Shuoyu mao12.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Arrays.cpp ParkMiller.cpp
+         ParkMiller.cpp
+     1>c:\users\jerry mao\documents\visual studio 2013\projects\shuoyu mao12\shuoyu mao12\parkmiller.cpp(37): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Arrays.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2132): error C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2113) : see declaration of 'std::_Copy_impl'
+                 c:\users\jerry mao\documents\visual studio 2013\projects\shuoyu mao12\shuoyu mao12\arrays.cpp(41) : see reference to function template instantiation '_OutIt std::copy<double*,double*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=double *
+         ,            _InIt=double *
+                 ]
+         Generating Code...
+     1>Done Building Project "c:\Users\jerry mao\documents\visual studio 2013\Projects\Shuoyu mao12\Shuoyu mao12\Shuoyu mao12.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.47
